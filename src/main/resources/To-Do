@@ -1,0 +1,10 @@
+1. - Replace "mcmmo" and/or add dependance "Aurelium"
+   - add autopickup (no drop on the ground)
+
+2. have a tool to facilitate block selection. (fi it possible)
+
+  FOR EXEMPLE :
+    original command: /oreregen set WheatTest1    (set regen of WheatTest1 where the player look)
+    new command:      /oreregen tool WheatTest1   ( will give me stick to set the regen of WheatTest1 where i click)
+
+3. add age option or modify the plugin so the plants can regen fully grown (Wheat, Beetroot, potato, carrot, bamboo)

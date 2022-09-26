@@ -1,0 +1,7 @@
+name: GresisiaRegen
+version: '${project.version}'
+main: gresisiaregen.gresisiaregen.GresisiaRegen
+api-version: 1.16
+prefix: GresisiaRegen
+commands:
+  oreregen:

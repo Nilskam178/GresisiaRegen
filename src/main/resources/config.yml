@@ -1,0 +1,27 @@
+Generators:
+  DiamondGenerator:
+    block: DIAMOND_ORE
+    age: 7     #Not used for non plants
+    delay-ticks: 300
+    drops:
+      amount: 3 #Max 64
+      item: DIAMOND
+    permission: oreregen.user.diamond
+    replacement: BEDROCK
+    Aurelium:
+      double-drops: true
+      type: Mining
+      exp: 5
+  WheatGenerator:
+    block: WHEAT
+    age: 7
+    delay-ticks: 300
+    drops:
+      amount: 1 #Max 64
+      item: WHEAT
+    permission: oreregen.user.wheat
+    replacement: AIR
+    Aurelium:
+      double-drops: true
+      type: Farming
+      exp: 1
