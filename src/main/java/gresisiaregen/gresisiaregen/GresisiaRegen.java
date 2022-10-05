@@ -12,12 +12,10 @@ import org.bukkit.plugin.java.JavaPlugin;
 public final class GresisiaRegen extends JavaPlugin {
 
     public static GresisiaRegen main;
-    public static AureliumSkills skills;
 
     @Override
     public void onEnable() {
         main = this;
-        skills = AureliumAPI.getPlugin();
 
         ConfigManager.setupConfig(this);
         GeneratorManager.setupFile(this);

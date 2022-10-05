@@ -3,7 +3,6 @@ package gresisiaregen.gresisiaregen.Commands;
 import gresisiaregen.gresisiaregen.Config.ConfigManager;
 import gresisiaregen.gresisiaregen.Generators.GeneratorManager;
 import gresisiaregen.gresisiaregen.GresisiaRegen;
-import jdk.nashorn.internal.runtime.regexp.joni.Config;
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
